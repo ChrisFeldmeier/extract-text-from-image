@@ -14,6 +14,8 @@ Before running the program, ensure you have the following installed:
 
 - Python 3.7 or higher
 - pip (Python package installer)
+- Tesseract OCR
+- also dont forget to install brew if you dont have it already
 
 ## Installation
 
@@ -25,7 +27,7 @@ Before running the program, ensure you have the following installed:
 
 2. Install the required packages:
    ```
-   pip install pytesseract Pillow
+   pip install pytesseract Pillow pandas
    ```
 
 3. Install Tesseract OCR:
